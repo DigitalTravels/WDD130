@@ -1,0 +1,20 @@
+8 lines (18 sloc)  1.58 KB
+   
+<!DOCTYPE html>
+<html>
+  <head>
+      <h1>About Me</h1>
+    <img 
+      src="https://lh3.googleusercontent.com/UUjsd9oO-OTypK5MVWki0KS-xjK372itR-kZ76DfGR3LTUf-Qh_cxclOYkwdjx9RB6ZcO--BjFg2dmyqzp-W8U8g4hJmD5Y1XZ7vYMoBPAfzDxN_p-e2lrb3zaMoNXe0vdR5xG6o9_rTNycDgY3ZSGDtbYkhULnHO8_SOKg31XhsW2CPhYIf4qxk2O8oNAU4yOSLJqQR30fUcWm9T2Fry0mdYYyf0bAH5SmuS-BaJRIruefltD20vCHisyuhocQbPhTSxnDVUtULrVYFs9eSZJ0iZgJ68VQ433zRKT2VCDh6dkq0G3aW1HHwpg0m3uiuKThH9PXLCvdUTGnN7uxEdxVpBOEIChrMaG_hnLzCoGQRACKxSLwEZE4jdDmyW9IXWH2Ob70TBkLuUTTi-UvHCbqruZ2s2ZJs8nWbYqL_D_K2xCNYxtDZltX07orppua8xFYxQFhZUTpGm5NM7oANZGymiuL7DVkK1mpDL7TUT_ISiI-Yz2PgVsjpIVGPd2bQZruJWTELSZA7Ekyj8AJW-zJ6r9zf5VDoh878ZqYyabPP7WV1624P4jxs3xo42gVOQiqdLLqBGlaw4DDvBg9KJj7N7ap9X70aBTsFDHJXdxxzizozD4P1pIVLkGERb20-lBnW-Bfp0ETmW4jr-39kdgbu5Gam8fqE1gnXY3XyG6Z5nIhr36Sxc9QeNqaSL_AuXmf5vgvdPmvgaYBsSDMsRCXz67jIsor-L-khVFT6jOfNFJ3wofEZCBUfviDQ0XziH6IgO0OEuynTj6cG4WphK4ebsCmEbU0Tm5YZOOeaYfsXDHbNRq8kw9UsZmOQm4-fTRfWNg=w671-h894-no?authuser=2"
+      />
+  </head>
+  <body>
+    <h2>Jacob Haines</h2>
+    <header>Jac for short</header>
+    <main>Hello! My name is Jacob Haines. I am currently 20 years old, and I am going to school for business management.</main>
+    <main>I live in Oklahoma and, while this course isn't specifically required for my degree path, I wanted to take it. </main>
+    <main>In my spare time, I like tinkering with computers, and a web page is on my list of things I want to set up (kind of odd I know). </main>
+    <main>I look forward to learning with you all, and I hope we will all have fun.</main>
+    <footer> <p>My Web Page 2022</p></footer>
+  </body>
+</html>
