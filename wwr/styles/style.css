@@ -27,8 +27,8 @@ main section {
 }
 
 #background {
-    height: 725x;
-    width: 1000px;
+    height: auto;
+    width: auto;
     background-color: rgba(20, 30, 13, .7);
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +36,6 @@ main section {
 
 body {
     background-color: #fcfbfb;
-    vertical-align: middle;
 
 }
 
