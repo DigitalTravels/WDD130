@@ -16,15 +16,16 @@
 
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #122E57;  /* headlines on a white background */ 
-  --headline-color-on-color: #14161c; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #122E57; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #14161c; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #98FDFE  ;
+  --headline-color-on-white: #571212;  /* headlines on a white background */ 
+  --headline-color-on-color: #420000; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #230000; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #646464; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #BDBDBD  ;
   --nav-link-color: #FFFFFF;
-  --nav-background-color: #4774F1;
-  --nav-hover-link-color: #0E141A;
-  --nav-hover-background-color: #98FDFE;
+  --nav-background-color: #0E141A;
+  --nav-hover-link-color: #FFFFFF;
+  --nav-hover-background-color:#646464;
+  ;
 }
 
 
