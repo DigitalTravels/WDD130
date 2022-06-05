@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Tapestry&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
   --primary-color:#571212;
   --secondary-color:#420000;
   --tertiary-color:#230000;
@@ -10,7 +9,6 @@
   --accent2-color:#0E141A;
   --accent3-color:#000000;
 
-  /* change the values below to your chosen font(s) */
   --heading-font: Joan, Arial, sans-serif;
   --paragraph-font: Joan, Helvetica, sans-serif;
 
