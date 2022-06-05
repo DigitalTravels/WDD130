@@ -1,12 +1,12 @@
-/* Font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Tapestry&display=swap');
 
 :root{
     --body-font: Ubuntu, sans-serif;
     --headline-font: Montserrat, sans-serif;
     --message-font: Roboto, sans-serif;
 }
-/* Content */
+
 #content{
     max-width: 1600px;
     margin: 0 auto; 
@@ -106,22 +106,21 @@ h4{
     box-shadow: 5px 5px 10px #5900ff;
 }
 
-/* Hero */
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;/**This property will push the hero image over the nav */
+    margin-top: -100px;
 }
 #hero-box{
     grid-column: 1/4;
     grid-row: 1/3;
-    z-index: -1; /**This property is used to move layers back and forward in the z axis*/
+    z-index: -1; 
 
 }
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px; /**This will push down by 100px the hero text*/
+    margin-top: 100px; 
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -143,7 +142,6 @@ nav a:hover{
     color: #5900ff;
 }
 
-/* buttons */
 .button-box{
     text-align: center;
 }
