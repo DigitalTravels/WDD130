@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Tapestry&display=swap');
 
 :root {
-  --primary-color:#77ABFF;
-  --secondary-color:#241DA9;
-  --accent1-color:#BDBDBD;
-  --accent2-color:#000000;
+  --primary-color:#691E06;
+  --secondary-color:#8F250C;
+  --tertiary-color: #BB4D00;
+  --accent1-color:#CA5310;
+  --accent2-color:#FBBA72;
 
   --heading-font: Joan, Arial, sans-serif;
   --paragraph-font: Joan, Helvetica, sans-serif;
 
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #77ABFF;  /* headlines on a white background */ 
-  --headline-color-on-color: #241DA9; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #BDBDBD; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #000000  ;
-  --nav-link-color: #FFFFFF;
-  --nav-background-color: #BDBDBD;
-  --nav-hover-link-color: #FFFFFF;
-  --nav-hover-background-color:#BDBDBD;
+  --headline-color-on-white: #691E06;  /* headlines on a white background */ 
+  --headline-color-on-color: #8F250C; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #BB4D00; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #691E06; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #FBBA72  ;
+  --nav-link-color: #691E06;
+  --nav-background-color: #FBBA72;
+  --nav-hover-link-color: #691E06;
+  --nav-hover-background-color:#FBBA72;
   ;
 }
 
@@ -101,7 +102,9 @@ p {
 .secondary {
   background-color: var(--secondary-color);
 }
-
+.tertiary {
+  background-color: var(--tertiary-color);
+}
 .accent1 {
   background-color: var(--accent1-color);
 }
