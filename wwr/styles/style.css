@@ -110,13 +110,43 @@ h4 {
     grid-row: 2/3;
 }
 
-.card-img {
-    border: 10px solid #5900ff;
-    width: 100%;
+.favorite-img {    
+    width: 100;
     transition: transform 0.5s;
-    box-shadow: 5px 5px 10px #5900ff;
+    border: 5px solid #000000;
+    transition: transform 0.5s;
+    position: relative;
+    top:20px;
+    left:20px;
+    padding: 20px;
+
+}
+#favorite-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+
 }
 
+#favorite-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#favorite-msg h1,
+#favorite-msg h4 {
+    text-align: center;
+}
+
+
+.card-img {    
+    border: 10px solid #5900ff;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #5900ff;
+    width: 100%;
+    transition: transform 0.5s;
+}
 .card-img:hover {
     opacity: 0.6;
     transform: scale(1.1);
@@ -133,6 +163,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    grid-row: 1/2;
 }
 
 #hero-box {
@@ -253,7 +284,7 @@ footer .social img {
     }
 
     #hero {
-        margin-top: 0;
+        margin-top: -100px;
     }
 
     #hero-msg {
@@ -267,6 +298,10 @@ footer .social img {
     .home-title {
         font-size: 25px;
         color: #5c34ca;
+    }
+    .tour-title {
+        font-size: 20px;
+        color: #000000;
     }
 
     .rivers-card,
