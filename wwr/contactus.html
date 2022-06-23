@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jacob Haines">
+        <link rel="stylesheet" href="styles/contact-us.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <div id="feedback">
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" value="filled with text">                        
+                        </li>
+                        <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_mail" value="example@mail.com">                        
+                        </li>
+                        <li>
+                            <label for="name">Name:</label>
+                            <textarea name="user_message" id="msg"></textarea>                      
+                        </li>
+                        <li class="button">
+                            <button type="submit">Send your message</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <script>
+            const feedbackElement = document.getElementById('feedback');
+            const formElement = document.forms[0];
+            formElement.addEventListener('submit', function(e) {
+                e.preventDefault();
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                feedbackElement.style.display = "block";
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
+    </body>
+</html>
