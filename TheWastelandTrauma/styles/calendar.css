@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Tapestry&display=swap');
+table {
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    height: 600px;
+}
+table, th, td { 
+    font-weight: bold;
+    padding:10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
