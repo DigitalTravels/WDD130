@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Tapestry&display=swap');
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "calendar logohome threads"
+    "welcome welcome welcome"
+    "announcement"
+    ;
+}
+.grid div:nth-child(even) {
+    background-color: red;
+}
+.grid div:nth-child(odd) {
+    background-color: green;
+}
+
+.calendar{
+    grid-area: calendar;
+    height: auto;
+    width: auto;
+    grid-column: 1 / 2;
+
+}
+.logohome{
+    grid-area: logohome;
+    height: auto;
+    width: auto;
+    grid-column: 2 / 3;
+}
+.threads{
+    grid-area: threads;
+    height: auto;
+    width: auto;
+    grid-column: 3 / 4;
+}
+.welcome {
+    grid-area: welcome;
+    height: auto;
+    width: auto;
+}
+.announcement{
+    height: auto;
+    width: auto;
+    grid-area: announcement;
+}
+
+.announcement-header {
+
+font-size: 16px;
+text-align: center;
+}
+.announcement-contents {
+
+font-size: 14px;
+text-align: center;
+}
