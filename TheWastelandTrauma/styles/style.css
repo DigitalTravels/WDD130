@@ -18,13 +18,16 @@ body {
     margin: 0;
     padding: 0;
     max-width: fit-content;
-    
 }
 
 header {
+    grid-template-columns: 200px 30% 30% 30%;
+    grid-template-rows: 1fr;
     background-color: #691E06;
     display: grid;
-    grid-template-columns: 150px auto;
+   
+    ;
+    
 }
 
 #logo-link {
