@@ -3,58 +3,80 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr;
+    grid-template-rows: 33.33vw 33.33vw 33.33vw / 1fr 1fr 1fr;
     grid-template-areas: 
     "calendar logohome threads"
-    "welcome welcome welcome"
-    "announcement"
+    ". welcome ."
+    "announcement announcement announcement"
     ;
+    grid-template-columns: calc(100% / 3)
+
+
+ 
 }
-.grid div:nth-child(even) {
-    background-color: red;
-}
-.grid div:nth-child(odd) {
-    background-color: green;
-}
+
 
 .calendar{
     grid-area: calendar;
     height: auto;
-    width: auto;
     grid-column: 1 / 2;
-
+    justify-content: center;
 }
 .logohome{
     grid-area: logohome;
     height: auto;
-    width: auto;
     grid-column: 2 / 3;
+    justify-content: center;
 }
 .threads{
     grid-area: threads;
     height: auto;
-    width: auto;
     grid-column: 3 / 4;
+    justify-content: center;
 }
 .welcome {
     grid-area: welcome;
-    height: auto;
     width: auto;
+    text-align: left;
 }
 .announcement{
-    height: auto;
     width: auto;
     grid-area: announcement;
+    justify-content: center;
 }
 
 .announcement-header {
 
-font-size: 16px;
-text-align: center;
+    font-size: auto;
+    text-align: center;
 }
 .announcement-contents {
 
-font-size: 14px;
-text-align: center;
+    font-size: auto;
+    text-align: center;
+}
+.cd{
+    object-fit: cover;
+    width: 33.33vw;
+    height: 33.33vw;
+    display: block;
+}
+.lg {
+    object-fit: cover;
+    width: 33.33vw;
+    height: 33.33vw;
+    display: block;
+}
+.td{
+    object-fit: cover;
+    width: 33.33vw;
+    height: 33.33vw;
+    display: block;
+}
+.announcement-header {
+    text-size-adjust: auto;
+}
+.announcement-contents {
+    text-size-adjust: auto;  
 }
