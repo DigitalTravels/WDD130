@@ -8,3 +8,21 @@ h2
     display:block;
     background: white;
 }
+
+.threadtable {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr;
+    grid-template-rows: 33.33vw / 1fr;
+    grid-template-areas:
+        "threadss threadss threadss"
+    ;
+    grid-template-columns: calc(100% / 3);
+
+}
+
+.threadss {
+    grid-area: threadss;
+    height: auto;
+    grid-column: 1 / 4;
+    justify-content: center;
+}
