@@ -9,12 +9,12 @@ h2
     background: white;
 }
 
-.threadtable {
+.grid {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr;
     grid-template-rows: 33.33vw / 1fr;
     grid-template-areas:
-        "threadss threadss threadss"
+        ". threadss ."
     ;
     grid-template-columns: calc(100% / 3);
 
@@ -23,7 +23,27 @@ h2
 .threadss {
     grid-area: threadss;
     height: auto;
-    grid-column: 1 / 4;
+    grid-column: 2 / 3;
     justify-content: center;
+    object-fit: cover;
+    width: 33.33vw;
+    height: 33.33vw;
+    display: block;
 }
 
+header {
+    grid-template-columns: 200px 30% 30% 30%;
+    grid-template-rows: 1fr;
+    background-color: #691E06;
+    display: grid;
+
+    
+}
+.announcement-header {
+
+    font-size: auto;
+    text-align: center;
+}
+.announcement-header {
+    text-size-adjust: auto;
+}
