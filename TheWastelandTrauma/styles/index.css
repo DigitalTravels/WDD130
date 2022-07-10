@@ -15,19 +15,22 @@
 
  
 }
-.threads{
-    height: auto;
-
-    justify-content: center;
+.threadtable{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr ;
     grid-template-rows: 33.33vw / 1fr;
     grid-template-areas: 
-    "threads threads threads"
+    "threadss threadss threadss"
+    ;
+    grid-template-columns: calc(100% / 3)
    ;
-    grid-area: threads;
-    grid-column: 2 / 3;
 
+}
+.threadss{
+    grid-area: calendar;
+    height: auto;
+    grid-column: 1 / 4;
+    justify-content: center;
 }
 .calendar{
     grid-area: calendar;
