@@ -27,7 +27,7 @@
 
 }
 .threadss{
-    grid-area: calendar;
+    grid-area: threadss;
     height: auto;
     grid-column: 1 / 4;
     justify-content: center;
