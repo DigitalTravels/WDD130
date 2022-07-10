@@ -3,59 +3,62 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr ;
+    grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr;
     grid-template-rows: 33.33vw 33.33vw 33.33vw / 1fr 1fr 1fr;
-    grid-template-areas: 
-    "calendar logohome threads"
-    ". welcome ."
-    "announcement announcement announcement"
+    grid-template-areas:
+        "calendar logohome threads"
+        ". welcome ."
+        "announcement announcement announcement"
     ;
     grid-template-columns: calc(100% / 3)
-
-
- 
 }
-.threadtable{
+
+.threadtable {
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr ;
+    grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr;
     grid-template-rows: 33.33vw / 1fr;
-    grid-template-areas: 
-    "threadss threadss threadss"
+    grid-template-areas:
+        "threadss threadss threadss"
     ;
-    grid-template-columns: calc(100% / 3)
-   ;
+    grid-template-columns: calc(100% / 3);
 
 }
-.threadss{
+
+.threadss {
     grid-area: threadss;
     height: auto;
     grid-column: 1 / 4;
     justify-content: center;
 }
-.calendar{
+
+.calendar {
     grid-area: calendar;
     height: auto;
     grid-column: 1 / 2;
     justify-content: center;
 }
-.logohome{
+
+.logohome {
     grid-area: logohome;
     height: auto;
     grid-column: 2 / 3;
     justify-content: center;
 }
-.threads{
+
+.threads {
     grid-area: threads;
     height: auto;
     grid-column: 3 / 4;
     justify-content: center;
 }
+
 .welcome {
     grid-area: welcome;
     width: auto;
     text-align: left;
 }
-.announcement{
+
+.announcement {
     width: auto;
     grid-area: announcement;
     justify-content: center;
@@ -66,32 +69,38 @@
     font-size: auto;
     text-align: center;
 }
+
 .announcement-contents {
 
     font-size: auto;
     text-align: center;
 }
-.cd{
+
+.cd {
     object-fit: cover;
     width: 33.33vw;
     height: 33.33vw;
     display: block;
 }
+
 .lg {
     object-fit: cover;
     width: 33.33vw;
     height: 33.33vw;
     display: block;
 }
-.td{
+
+.td {
     object-fit: cover;
     width: 33.33vw;
     height: 33.33vw;
     display: block;
 }
+
 .announcement-header {
     text-size-adjust: auto;
 }
+
 .announcement-contents {
-    text-size-adjust: auto;  
+    text-size-adjust: auto;
 }
