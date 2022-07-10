@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    grid-template-columns: 200px 30% 30% 30%;
+    grid-template-columns: 10% 30% 30% 30%;
     grid-template-rows: 1fr;
     background-color: #691E06;
     display: grid;
