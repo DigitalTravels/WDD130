@@ -3,7 +3,7 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%/ 1fr 1fr 1fr;
+    grid-template-columns: 33.33% 33.33% 33% / 1fr 1fr 1fr;
     grid-template-rows: 33.33vw 33.33vw 33.33vw / 1fr 1fr 1fr;
     grid-template-areas:
         "calendar logohome threads"
@@ -48,13 +48,12 @@
 
 .announcement-header {
 
-    font-size: auto;
     text-align: center;
 }
 
 .announcement-contents {
 
-    font-size: auto;
+  
     text-align: center;
 }
 

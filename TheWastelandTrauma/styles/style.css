@@ -7,7 +7,7 @@
 }
 
 #content {
-    max-width: auto;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -115,11 +115,13 @@ h4 {
 
 .favorite-img {
 
-    width: 40%;
-    transition: transform 0.5s;
+    width: 50%;
+    transition: 0.5s;
     position: relative;
     left: 30%;
-    box-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
