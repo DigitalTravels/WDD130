@@ -10,7 +10,7 @@
         ". welcome ."
         "announcement announcement announcement"
     ;
-    grid-template-columns: calc(100% / 3)
+
 }
 
 .calendar {
