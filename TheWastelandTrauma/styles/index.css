@@ -8,10 +8,7 @@
     grid-template-areas:
         "calendar logohome threads"
         ". welcome ."
-        "announcement announcement announcement"
-    ;
-
-}
+        "announcement announcement announcement";}
 
 .calendar {
     grid-area: calendar;
