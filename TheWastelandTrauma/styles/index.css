@@ -5,8 +5,8 @@
     display: grid;
     height: 100vh;
     width: 100vw;
-    grid-template-columns: 40px / 1fr 1fr 1fr;
-    grid-template-rows: 40px / 1fr 1fr 1fr;
+    grid-template-columns: 40px 1 1 1;
+    grid-template-rows: 40px 1 1 1;
     grid-template-areas:
         "calendar logohome threads"
         ". welcome ."
